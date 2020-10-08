@@ -1,7 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -9,13 +5,40 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm run build`
+### `npm build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
+
+BASE API URL: https://mighty-oasis-08080.herokuapp.com/api/
+
+API Info:
+
+    List of tags (GET)
+        /api/tags
+
+    Login (POST)
+        /api/user
+        Data Sample: {user: {email: "a@gmail.com", password: "hello123"}}
+
+    Signup (POST)
+        /api/users
+        Data Sample: {user: {email: "a@gmail.com", password: "hello123", username: "test123"}}
+
+    Signup (POST)
+        /api/users
+        Data Sample: {user: {email: "a@gmail.com", password: "hello123", username: "test123"}}
+
+    Verify User (GET)
+        /api/user
+        You need to add authorization: Token ..
+
+    Public Articles (GET)
+        /api/articles?limit=10&offset=0
+
+Tech Stack
+
+    React Hooks
+    Formik
