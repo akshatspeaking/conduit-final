@@ -20,12 +20,8 @@ API Info:
         /api/tags
 
     Login (POST)
-        /api/user
+        /api/users/login
         Data Sample: {user: {email: "a@gmail.com", password: "hello123"}}
-
-    Signup (POST)
-        /api/users
-        Data Sample: {user: {email: "a@gmail.com", password: "hello123", username: "test123"}}
 
     Signup (POST)
         /api/users
